@@ -29,10 +29,11 @@ then
 brew install fish starship neovim zoxide lazygit tmux fzf eza bat fd ripgrep btop
 brew install --cask raycast
 ```
-set fish as default
+set fish as start in ghosty
 ```
-echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
-chsh -s /opt/homebrew/bin/fish
+cmd + ,
+command = "/opt/homebrew/bin/fish"
+shell-integration-features = title, sudo, ssh-env, ssh-terminfo
 ```
 
 ---
