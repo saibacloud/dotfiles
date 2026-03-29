@@ -1,8 +1,4 @@
-# dotfiles ref
-
-personal cheatsheet — configs symlinked from `~/Documents/Code/dotfiles/`
-
----
+# dotfiles
 
 ## tools
 
@@ -117,7 +113,7 @@ run multiple sessions, btop for make fancy visual
 | `Ctrl+A -` | split top/bottom |
 | `Ctrl+A h/j/k/l` | move between panes |
 | `Ctrl+A Alt+h/j/k/l` | resize |
-| `Ctrl+A z` | fullscreen toggle |
+| `Ctrl+A z` | fullscreen toggle |a
 | `Ctrl+A x` | kill pane |
 | `Ctrl+A r` | reload config |
 
