@@ -1,4 +1,4 @@
-# CachyOS-specific config (Linux only)
+# for Linux only
 if test (uname) = Linux; and test -f /usr/share/cachyos-fish-config/cachyos-config.fish
     source /usr/share/cachyos-fish-config/cachyos-config.fish
 end
