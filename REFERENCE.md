@@ -26,7 +26,7 @@ personal cheatsheet — configs symlinked from `~/Documents/Code/dotfiles/`
 
 cursor tells you the mode — block = normal, line = insert
 
-| | |
+| FISH | what it do |
 |---|---|
 | `jk` | exit to normal (fast af) |
 | `i` `a` `A` | insert at cursor / after / end of line |
@@ -42,7 +42,7 @@ cursor tells you the mode — block = normal, line = insert
 
 ## starship symbols
 
-| | |
+| starship | what it doin |
 |---|---|
 | `❯` green | ok |
 | `❯` red | last command failed |
@@ -58,7 +58,7 @@ cursor tells you the mode — block = normal, line = insert
 
 learns from wherever you `cd`. ranks by frequency.
 
-| | |
+| Z | make cd go brr |
 |---|---|
 | `z saiba` | jump to best match |
 | `z code weak` | match multiple path segments |
@@ -69,9 +69,9 @@ learns from wherever you `cd`. ranks by frequency.
 
 ## lazygit
 
-run `lazygit` in any repo. panels 1–5 across the top.
+run `lazygit` in any repo. panels 1–5 across the top
 
-| | |
+| l a z y | a true hero |
 |---|---|
 | `Space` | stage / unstage |
 | `a` | stage all |
@@ -87,12 +87,12 @@ run `lazygit` in any repo. panels 1–5 across the top.
 
 ## tmux
 
-prefix is `Ctrl+A` — press, release, then key.
-run multiple sessions
+prefix is `Ctrl+A` — press, release, then key
+run multiple sessions, btop for make fancy visual
 
 **sessions**
 
-| | |
+| zoomin | but in fish |
 |---|---|
 | `tmux` | new session |
 | `tmux new -s name` | named session |
@@ -102,7 +102,7 @@ run multiple sessions
 
 **windows**
 
-| | |
+| snappin | windows |
 |---|---|
 | `Ctrl+A c` | new window |
 | `Ctrl+A 1-9` | switch window |
@@ -111,7 +111,7 @@ run multiple sessions
 
 **panes**
 
-| | |
+| what is | a pane |
 |---|---|
 | `Ctrl+A |` | split side by side |
 | `Ctrl+A -` | split top/bottom |
@@ -123,7 +123,7 @@ run multiple sessions
 
 **copy mode** — enter with `Ctrl+A [`, exit with `q`
 
-| | |
+| ctrl c | ctrl v |
 |---|---|
 | `v` | start selection |
 | `y` | copy to clipboard |
@@ -132,11 +132,11 @@ run multiple sessions
 
 ## neovim
 
-leader is `Space`.
+leader is `Space`
 
 **file**
 
-| | |
+| leader | space? |
 |---|---|
 | `Space w` | save |
 | `Space q` | quit |
@@ -147,7 +147,7 @@ leader is `Space`.
 
 **movement**
 
-| | |
+| jumpin | jumnin |
 |---|---|
 | `Ctrl+d` / `u` | half page, cursor stays centred |
 | `n` / `N` | next/prev search result, stays centred |
@@ -157,7 +157,7 @@ leader is `Space`.
 
 **editing**
 
-| | |
+| ker | chow |
 |---|---|
 | `V` → `J`/`K` | move selected lines up/down |
 | `<` / `>` in visual | indent, stays in visual mode |
@@ -167,7 +167,7 @@ leader is `Space`.
 
 ## custom fish functions
 
-| | |
+| custom | fish |
 |---|---|
 | `serve` | `python -m http.server 8000` in cwd |
 | `serve 3000` | same, custom port |
