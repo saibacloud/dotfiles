@@ -1,0 +1,38 @@
+format = """$directory$git_branch$git_status$python$nodejs$rust$docker_context$cmd_duration$line_break$character"""
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+vimcmd_symbol = "[❮](purple)"
+
+[directory]
+truncation_length = 3
+style = "cyan bold"
+
+[git_branch]
+symbol = " "
+style = "purple"
+
+[git_status]
+style = "red"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+modified = "!${count}"
+untracked = "?${count}"
+staged = "+${count}"
+
+[cmd_duration]
+min_time = 2000
+format = " took [$duration](yellow)"
+
+[python]
+symbol = " "
+format = "via [${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+
+[nodejs]
+symbol = " "
+
+[docker_context]
+symbol = " "
+format = "via [$symbol$context]($style) "
