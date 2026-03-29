@@ -1,9 +1,4 @@
-# dotfiles ref — mac
-
-personal cheatsheet — configs symlinked from `~/Documents/Code/dotfiles/`
-same setup as cachyos, different machine, one line different in tmux
-
----
+# dotfiles
 
 ## tools
 
@@ -24,7 +19,7 @@ same setup as cachyos, different machine, one line different in tmux
 
 ---
 
-## install everything
+## install things
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -50,8 +45,7 @@ replaces `Cmd+Space`. set it as default in raycast settings on first launch
 |---|---|
 | `Cmd+Space` | open raycast |
 | `Cmd+Space` → type anything | launch apps, find files, calc, convert |
-| `Cmd+Shift+C` | clipboard history (last ~weeks of copies) |
-| window shortcuts | set in raycast → extensions → window management |
+| `Cmd+Shift+C` | clipboard history |
 | snippets | raycast → create snippet → type shortcut to expand |
 
 ---
