@@ -111,7 +111,7 @@ run multiple sessions, btop for make fancy visual
 
 **panes**
 
-| what is | a pane |
+| i am | in pane |
 |---|---|
 | `Ctrl+A |` | split side by side |
 | `Ctrl+A -` | split top/bottom |
