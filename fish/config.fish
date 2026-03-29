@@ -1,4 +1,7 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+# CachyOS-specific config (Linux only)
+if test (uname) = Linux; and test -f /usr/share/cachyos-fish-config/cachyos-config.fish
+    source /usr/share/cachyos-fish-config/cachyos-config.fish
+end
 
 # overwrite greeting
 # potentially disabling fastfetch
@@ -98,3 +101,10 @@ end
 # --- Editor default ---
 set -gx EDITOR nvim
 set -gx VISUAL nvim
+
+# --- Config shortcuts ---
+alias conffish="nvim ~/.config/fish/config.fish"
+alias confnvim="nvim ~/.config/nvim/init.lua"
+alias conftmux="nvim ~/.tmux.conf"
+alias confstarship="nvim ~/.config/starship.toml"
+alias confghost="nvim ~/.config/ghostty/config"
