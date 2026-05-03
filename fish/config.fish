@@ -87,7 +87,7 @@ function gitstatus -d "Git status of all repos in cwd"
 end
 # Quick file find
 function ff -d "Fuzzy find files with fzf + fd"
-    fd --type f --hidden --exclude .git | fzf --preview 'bat --color=always --style=numbers --line-range=:200 {}' | read -l result
+    fd --type f --hidden --exclude .git $argv | fzf --preview 'bat --color=always --style=numbers --line-range=:200 {}' | read -l result
     and $EDITOR $result
 end
 # Quick grep into fzf
